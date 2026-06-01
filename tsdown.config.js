@@ -68,7 +68,6 @@ function scssPlugin() {
 // handing control to our plugin.
 const cssLoader = { '.css': 'js', '.scss': 'js' }
 
-const env = process.env.NODE_ENV === 'development' ? 'development' : 'production'
 const banner = `/*! ${pkg.name} v${pkg.version} | MIT License | https://github.com/oirodolfo/eruda-console-browser */`
 
 // Inject VERSION and ENV as literal replacements via rollup plugin

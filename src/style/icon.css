@@ -4,8 +4,8 @@
     format('woff');
 }
 
-[class^='icon-'],
-[class*=' icon-'] {
+[class^='roderuda-icon-'],
+[class*=' roderuda-icon-'] {
   display: inline-block;
   font-family: 'roderuda-icon' !important;
   font-size: 16px;

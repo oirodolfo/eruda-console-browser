@@ -42,7 +42,7 @@
   line-height: 20px;
   border-bottom: 1px solid var(--border);
   [class^='roderuda-icon-'],
-  [class*=' icon-'] {
+  [class*=' roderuda-icon-'] {
     display: inline-block;
     padding: 10px;
     font-size: $font-size-l;

@@ -12,7 +12,7 @@ describe('resources', function () {
     })
 
     it('clear', function () {
-      $tool.find('.roderuda-local-storage .eruda-clear-storage').click()
+      $tool.find('.roderuda-local-storage .roderuda-clear-storage').click()
     })
   })
 
@@ -23,7 +23,7 @@ describe('resources', function () {
     })
 
     it('clear', function () {
-      $tool.find('.roderuda-session-storage .eruda-clear-storage').click()
+      $tool.find('.roderuda-session-storage .roderuda-clear-storage').click()
     })
   })
 

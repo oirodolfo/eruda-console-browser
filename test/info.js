@@ -30,7 +30,7 @@ describe('info', function () {
     })
 
     it('about', function () {
-      expect($tool.find('.roderuda-content').eq(5)).toHaveText(/Eruda v[\d.]+/)
+      expect($tool.find('.roderuda-content').eq(5)).toHaveText(/RodEruda v[\d.]+/)
     })
   })
 
