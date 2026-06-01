@@ -21,16 +21,16 @@ jobs:
         run: corepack enable
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm ci
 
       - name: Typecheck
-        run: npm run typecheck
+        run: pnpm typecheck
 
       - name: Build
-        run: npm run build
+        run: pnpm build
 
       - name: Test
-        run: npm test
+        run: pnpm test
 
       - name: Verify dist files
         run: |
