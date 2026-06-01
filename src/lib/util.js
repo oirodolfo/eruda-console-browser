@@ -109,7 +109,7 @@ export function isChobitsuEl(el) {
 }
 
 export function classPrefix(str) {
-  if (/<[^>]*>/g.test(str)) {
+  if (/<[^<>]*>/.test(str)) {
     try {
       const tree = html.parse(str)
       traverseTree(tree, (node) => {
