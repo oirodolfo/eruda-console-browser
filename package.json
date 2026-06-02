@@ -37,9 +37,9 @@
   "author": "redhoodsu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com"
+    "url": "https://github.com/oirodolfo/roderuda"
   },
-  "homepage": "https://github.io",
+  "homepage": "https://oirodolfo.github.io",
   "devDependencies": {
     "@babel/core": "^7.18.6",
     "@babel/eslint-parser": "^7.26.10",
